@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "19076858383",
+    "project_id": "thinkchat-ee46e",
+    "storage_bucket": "thinkchat-ee46e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19076858383:android:ba2d01b3221dc6787e997a",
+        "android_client_info": {
+          "package_name": "com.melita.thinkchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19076858383-a1usiti3rhbjckrr7k0720fd65jr8qtg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWMfwgpXiteQnV1Y1iGTaVwOKwCz1hYsk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19076858383-a1usiti3rhbjckrr7k0720fd65jr8qtg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
