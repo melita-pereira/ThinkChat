@@ -1,4 +1,4 @@
- package com.melita.thinkchat.activities;
+package com.melita.thinkchat.activities;
 
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
@@ -121,6 +121,7 @@ import java.util.HashMap;
         }
         else if (binding.inputName.getText().toString().trim().isEmpty()) {
             showToast("Enter name");
+            return false;
         }
         else if (binding.inputEmail.getText().toString().trim().isEmpty()) {
             showToast("Enter email");
@@ -139,13 +140,12 @@ import java.util.HashMap;
             return false;
         }
         else if (!binding.inputPassword.getText().toString().equals(binding.inputConfirmPassword.getText().toString())){
-            showToast("Password doesn't match with confirmation");
+            showToast("Password does not match with the confirmation password. Please try again.");
             return false;
         }
         else {
             return true;
         }
-        return null;
     }
     private void loading(Boolean isLoading){
         if(isLoading){
