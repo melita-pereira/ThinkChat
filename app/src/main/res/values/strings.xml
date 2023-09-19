@@ -10,4 +10,6 @@
     <string name="name">Name</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="sign_up">Sign Up</string>
+    <string name="you_ve_logged_in_successfully">You\'ve logged in successfully!</string>
+    <string name="you_have_successfully_logged_in">You have successfully logged in!</string>
 </resources>

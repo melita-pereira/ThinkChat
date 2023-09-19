@@ -143,9 +143,7 @@ import java.util.HashMap;
             showToast("Password does not match with the confirmation password. Please try again.");
             return false;
         }
-        else {
-            return true;
-        }
+        else return true;
     }
     private void loading(Boolean isLoading){
         if(isLoading){
@@ -153,7 +151,8 @@ import java.util.HashMap;
             binding.progressBar.setVisibility(View.VISIBLE);
         }
         else {
-            binding.progressBar.setVisibility(View.INVISIBLE);binding.buttonSignUp.setVisibility(View.VISIBLE);
+            binding.progressBar.setVisibility(View.INVISIBLE);
+            binding.buttonSignUp.setVisibility(View.VISIBLE);
         }
     }
 }
